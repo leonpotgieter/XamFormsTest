@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Leon’s iPhone4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamFormsTest/GridPage.xaml">
+    <Files>
+      <File FileName="XamFormsTest/LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="XamFormsTest/BackgroundPage.xaml" Line="49" Column="49" />
+      <File FileName="XamFormsTest/BackgroundPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamFormsTest/App.cs" Line="19" Column="19" />
+      <File FileName="XamFormsTest/obj/Debug/BackgroundPage.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="XamFormsTest/GridPage.xaml" Line="40" Column="40" />
+      <File FileName="XamFormsTest/GridPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="XamFormsTest.GridPage"
+             BackgroundColor="White" >
+<ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0" />
+</ContentPage.Padding>
+<!--	<StackLayout Orientation="Vertical" BackgroundColor="Silver">
+	<Label Text="This is a test" />-->
+		<Grid>
+		<Grid.RowDefinitions>
+		    <RowDefinition Height="0.20*"></RowDefinition>
+    		<RowDefinition Height="0.25*"></RowDefinition>
+    		<RowDefinition Height="0.45*"></RowDefinition>
+    		<RowDefinition Height="0.10*"></RowDefinition>
+    	</Grid.RowDefinitions>
+    	<Grid.ColumnDefinitions>
+    		<ColumnDefinition Width="0.5*"></ColumnDefinition>
+    		<ColumnDefinition Width="0.5*"></ColumnDefinition>
+    	</Grid.ColumnDefinitions>
+
+    <Image Source="EAAB.png" Aspect="AspectFit" Grid.Row="1" Grid.Column="0" />
+    <Image Source="Rebosa320.png" Aspect="AspectFit" Grid.Row="1" Grid.Column="1" />
+
+    <Image Source="ConnectedHouseTP480.png" Aspect="AspectFit" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="1" HorizontalOptions="End"  />
+    <Button Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1" Text="3" BackgroundColor="Red"></Button>
+<!--    <StackLayout Orientation="Vertical" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2">
+    	<Label Text="Line 1" />
+    	<Label Text="Line 2" />
+    	<Label Text="Line 3" />
+    </StackLayout>-->
+	</Grid>
+<!--	</StackLayout>-->
+
+</ContentPage>
